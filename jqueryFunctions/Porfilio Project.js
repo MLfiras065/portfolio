@@ -93,7 +93,7 @@ var colors = ["white", "black", "aqua",]
  var lis1 = $(".message")
    var li2= $(".btn")
    
-function changeColor(lis) { 
+function changeColor(lis) {  
     --currentColor 
     if (currentColor < 0) currentColor = colors.length - 1 
     for (var i = 0; i < lis.length; i++) {
