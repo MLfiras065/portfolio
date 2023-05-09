@@ -5,7 +5,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+img{
+  width: 224px;
+  height: 201px;
+}
 /* Global styles */
 * body{
   background:#172049 ;
